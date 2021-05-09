@@ -1,11 +1,15 @@
 # yotta-guard
+![Image text](https://raw.github.com/jingchaoqi/yotta-guard/master/img-files/Yotta-Guard Logo.png)
+
 Visualized monitor system for Knowledge Forest System (as known as Yotta), based on springboot admin.
 
 搭配Yotta知识森林系统使用的可视化监控系统，基于springboot admin及其相关包实现。
 
+See https://github.com/jingchaoqi/yotta-guard for code, co-opration and more information.
 
+请至 https://github.com/jingchaoqi/yotta-guard 寻找代码、进行协作及获取更多信息。
 
-## 使用说明
+## Configuration / 配置
 
 - add dependency for the clients to be monitored. 为被监控的springboot客户端配置client依赖。
 
@@ -29,9 +33,25 @@ For the safety of our yotta project, our  `application.properties` will not be p
 
 注意，为了安全起见，`application.properties`文件并不会被公开在git中，需要自行配置。
 
+If you are a member of XJTU E-Learning Team, please ask me directly for this config file. : )
+
+如果您是西安交大知识处理小组成员，请直接联系我获取此配置文件。: )
 
 
-## 关于作者
+
+## Instruction / 使用
+
+- Run Yotta-Guard first, and then run the Yotta client to be monitored (the Yotta-Guard instance and the Yotta client instance should have been well prepered by following the configuration above). 首先运行Yotta-Guard，然后运行待被监控的客户端（此Yotta-Guard和Yotta客户端应当已经按照上面的配置说明配置完毕）。
+
+- Open your browser, visit `localhost:port of the Yotta-Guard`. 打开您的浏览器，访问`localhost:port of the Yotta-Guard` 。
+
+![img](https://raw.github.com/jingchaoqi/yotta-guard/master/img-files/Yotta-Guard Page.png)
+
+- Click `Details` to get all provided information, for example, JVM, database, disk usage, threads and etc. 点击  `Details` 获得所有提供的信息，例如JVM、数据库、硬盘使用、线程等等。
+
+
+
+## About / 关于
 
 Jingchao Qi
 
