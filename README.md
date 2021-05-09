@@ -1,5 +1,5 @@
 # yotta-guard
-![Image text](https://raw.github.com/jingchaoqi/yotta-guard/master/img-files/Yotta-Guard Logo.png)
+![Image text](https://raw.github.com/jingchaoqi/yotta-guard/master/img-files/Yotta-Guard-Logo.png)
 
 Visualized monitor system for Knowledge Forest System (as known as Yotta), based on springboot admin.
 
@@ -45,7 +45,7 @@ If you are a member of XJTU E-Learning Team, please ask me directly for this con
 
 - Open your browser, visit `localhost:port of the Yotta-Guard`. 打开您的浏览器，访问`localhost:port of the Yotta-Guard` 。
 
-![img](https://raw.github.com/jingchaoqi/yotta-guard/master/img-files/Yotta-Guard Page.png)
+![img](https://raw.github.com/jingchaoqi/yotta-guard/master/img-files/Yotta-Guard-Page.png)
 
 - Click `Details` to get all provided information, for example, JVM, database, disk usage, threads and etc. 点击  `Details` 获得所有提供的信息，例如JVM、数据库、硬盘使用、线程等等。
 
